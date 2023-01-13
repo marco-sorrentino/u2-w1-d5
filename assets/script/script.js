@@ -11,5 +11,3 @@ window.onscroll = function () {
     document.getElementById("ctaOne").classList.remove("greenCta");
   }
 };
-
-document.getElementById;

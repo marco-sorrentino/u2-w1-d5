@@ -39,11 +39,11 @@ nav a {
 
 main {
   background-color: #ffc017;
-  height: 60vh;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   font-size: 1.1rem;
+  padding: 20px 0;
 }
 
 .leftMain {
@@ -272,4 +272,37 @@ header {
 .greenCta {
   background-color: green;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 20px 40px;
+  }
+
+  .leftMain {
+    padding: 40px 40px;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 4.7rem;
+  }
+
+  .rightMain {
+    width: 200px;
+  }
+
+  article {
+    padding: 0 40px;
+  }
+
+  .articleCard {
+    display: flex;
+    width: 18rem;
+    margin-top: 10px;
+  }
+
+  .md {
+    margin-top: 35px;
+  }
 }
