@@ -274,6 +274,10 @@ header {
   color: white;
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 /* MOBILE */
 
 @media only screen and (max-width: 576px) {
