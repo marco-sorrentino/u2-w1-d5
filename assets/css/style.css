@@ -305,4 +305,19 @@ header {
   .md {
     margin-top: 35px;
   }
+
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    margin-top: 90px;
+  }
+
+  aside {
+    padding: 0 0px;
+  }
+
+  .finalLinks {
+    margin-bottom: 20px;
+  }
 }
