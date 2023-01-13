@@ -1,0 +1,73 @@
+/* GENERAL RULES */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER;NAV */
+
+header {
+  background-color: #ffc017;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.337);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.cta {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+  background-color: #ffc017;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  font-size: 1.1rem;
+}
+
+.leftMain {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-size: 6rem;
+  letter-spacing: -4px;
+}
+
+h4 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.mainCta {
+  margin-top: 30px;
+  padding: 10px 40px;
+  font-size: 1.1rem;
+}
