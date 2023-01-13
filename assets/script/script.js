@@ -1,4 +1,3 @@
-const className = "inverted";
 const scrollTrigger = 60;
 
 window.onscroll = function () {
