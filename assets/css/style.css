@@ -257,3 +257,19 @@ aside p {
   font-size: 0.8rem;
   margin-right: 20px;
 }
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  z-index: 3;
+}
+
+.greenCta {
+  background-color: green;
+  color: white;
+}
