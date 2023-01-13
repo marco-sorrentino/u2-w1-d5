@@ -274,6 +274,55 @@ header {
   color: white;
 }
 
+/* MOBILE */
+
+@media only screen and (max-width: 576px) {
+  .rightNav a {
+    display: none;
+  }
+
+  .rightMain svg {
+    display: none;
+  }
+
+  .leftCardSection {
+    width: 90%;
+  }
+
+  .cardSection {
+    width: 20rem;
+  }
+
+  .imgArticle {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .name {
+    font-size: 0.7rem;
+  }
+
+  .articleTitle {
+    font-size: 0.9rem;
+    margin-top: 3px;
+  }
+
+  .articleText {
+    font-size: 0.8rem;
+  }
+
+  .leftDate {
+    font-size: 0.6rem;
+  }
+
+  .date {
+    margin-top: 3px;
+  }
+}
+
+/* TABLET */
+
 @media only screen and (max-width: 768px) {
   nav {
     padding: 20px 40px;
