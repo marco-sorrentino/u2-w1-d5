@@ -10,3 +10,23 @@ window.onscroll = function () {
     document.getElementById("ctaOne").classList.remove("greenCta");
   }
 };
+
+const m = document.querySelectorAll("g");
+
+setInterval(function () {
+  appear(), disappear();
+}, Infinity);
+
+const appear = () => {
+  m.forEach((el) => {
+    const randomM = m[Math.floor(Math.random() * m.length)];
+    randomM.style.opacity = "1";
+  });
+};
+
+const disappear = () => {
+  m.forEach((el) => {
+    const randomM = m[Math.floor(Math.random() * m.length)];
+    randomM.style.opacity = "0";
+  });
+};
