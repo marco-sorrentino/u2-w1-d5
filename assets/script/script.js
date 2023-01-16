@@ -11,11 +11,11 @@ window.onscroll = function () {
   }
 };
 
-const m = document.querySelectorAll("g");
+const m = document.querySelectorAll("path");
 
 setInterval(function () {
-  appear(), disappear();
-}, Infinity);
+  appear();
+}, 1000);
 
 const appear = () => {
   m.forEach((el) => {
@@ -23,6 +23,10 @@ const appear = () => {
     randomM.style.opacity = "1";
   });
 };
+
+setInterval(function () {
+  disappear();
+}, 2000);
 
 const disappear = () => {
   m.forEach((el) => {
