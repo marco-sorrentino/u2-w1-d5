@@ -15,7 +15,7 @@ const m = document.querySelectorAll("path");
 
 setInterval(function () {
   appear();
-}, 1000);
+}, 500);
 
 const appear = () => {
   m.forEach((el) => {
@@ -26,11 +26,11 @@ const appear = () => {
 
 setInterval(function () {
   disappear();
-}, 2000);
+}, 100);
 
 const disappear = () => {
   m.forEach((el) => {
-    const randomM = m[Math.floor(Math.random() * m.length)];
+    const randomM = m[Math.floor(Math.random() * m.length * 2)];
     randomM.style.opacity = "0";
   });
 };
