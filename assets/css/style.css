@@ -374,3 +374,19 @@ header {
     margin-bottom: 20px;
   }
 }
+
+@media only screen and (max-width: 1130px) {
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  aside {
+    padding-left: 0px;
+  }
+
+  .buttonAside {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
